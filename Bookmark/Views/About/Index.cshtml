@@ -1,0 +1,33 @@
+﻿
+
+@model IEnumerable<About>
+
+@{
+    ViewData["Title"] = "About";
+}
+
+<div class="text-center">
+    <h1 class="display-4">About</h1>
+</div>
+
+<a asp-action="Add" class="ms-2">Add About</a>
+
+<table class="table">
+    <thead>
+        <tr><th>First Name</th><th>Last Name</th><th></th></tr>
+    </thead>
+    <tbody>
+        @foreach (About about in Model)
+        {
+            <tr>
+                <td>@about.FirstName</td>
+                <td>@about.LastName</td>
+                <td>
+                    <my-link-button action="Delete" id="@about.AboutId">Delete</my-link-button>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
+
+

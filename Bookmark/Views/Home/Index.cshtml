@@ -1,0 +1,36 @@
+﻿@model IEnumerable<Book>
+
+@{
+    ViewData["Title"] = "Bookmark";
+}
+
+<div class="text-center">
+    <h1 class="display-4">Bookmark</h1>
+    <vc:genre-filter></vc:genre-filter>
+</div>
+
+<a asp-action="Add" asp-controller="Book" class="ms-2">Add Book</a>
+
+<table class="table">
+    <thead>
+        <tr><th>Title</th><th>Rating</th><th>About</th><th>Genre</th><th>Date</th><th></th></tr>
+    </thead>
+    <tbody>
+        @foreach (Book b in Model)
+        {
+            <tr>
+                <td>@b.Title</td>
+                <td>@b.Rating</td>
+                <td>@b.About.FullName</td>
+                <td>@b.Genre.Name</td>
+                <td>@b.Date</td>
+                <td>
+                    <my-link-button action="Edit" controller="Book" id="@b.BookId">Edit</my-link-button>
+                    <my-link-button action="Delete" controller="Book" id="@b.BookId">Delete</my-link-button>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
+
+

@@ -1,0 +1,8 @@
+/Users/elizabethbissinger/Bookmark/Bookmark/Bookmark/obj/Debug/net6.0/Bookmark.csproj.AssemblyReference.cache
+/Users/elizabethbissinger/Bookmark/Bookmark/Bookmark/obj/Debug/net6.0/Bookmark.GeneratedMSBuildEditorConfig.editorconfig
+/Users/elizabethbissinger/Bookmark/Bookmark/Bookmark/obj/Debug/net6.0/Bookmark.AssemblyInfoInputs.cache
+/Users/elizabethbissinger/Bookmark/Bookmark/Bookmark/obj/Debug/net6.0/Bookmark.AssemblyInfo.cs
+/Users/elizabethbissinger/Bookmark/Bookmark/Bookmark/obj/Debug/net6.0/Bookmark.csproj.CoreCompileInputs.cache
+/Users/elizabethbissinger/Bookmark/Bookmark/Bookmark/obj/Debug/net6.0/Bookmark.MvcApplicationPartsAssemblyInfo.cache
+/Users/elizabethbissinger/Bookmark/Bookmark/Bookmark/obj/Debug/net6.0/Bookmark.RazorAssemblyInfo.cache
+/Users/elizabethbissinger/Bookmark/Bookmark/Bookmark/obj/Debug/net6.0/Bookmark.RazorAssemblyInfo.cs
