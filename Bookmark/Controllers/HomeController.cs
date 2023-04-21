@@ -21,12 +21,12 @@ public class HomeController : Controller
         if (id == 0)
         {
             bookOptions.OrderBy = b => b.GenreId;
-            bookOptions.ThenOrderBy = b => b.MilitaryTime;
+            bookOptions.ThenOrderBy = b => b.Date;
         }
         else
         {
             bookOptions.Where = b => b.GenreId == id;
-            bookOptions.OrderBy = b => b.MilitaryTime;
+            bookOptions.OrderBy = b => b.Date;
         }
 
         var bookList = books.List(bookOptions);
