@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/Users/elizabethbissinger/Bookmark/Bookmark/Bookmark/Bookmark.csproj": {}
+    "/Users/elizabethbissinger/Documents/GitHub/Bookmark/Bookmark/Bookmark.csproj": {}
   },
   "projects": {
-    "/Users/elizabethbissinger/Bookmark/Bookmark/Bookmark/Bookmark.csproj": {
+    "/Users/elizabethbissinger/Documents/GitHub/Bookmark/Bookmark/Bookmark.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/elizabethbissinger/Bookmark/Bookmark/Bookmark/Bookmark.csproj",
+        "projectUniqueName": "/Users/elizabethbissinger/Documents/GitHub/Bookmark/Bookmark/Bookmark.csproj",
         "projectName": "Bookmark",
-        "projectPath": "/Users/elizabethbissinger/Bookmark/Bookmark/Bookmark/Bookmark.csproj",
+        "projectPath": "/Users/elizabethbissinger/Documents/GitHub/Bookmark/Bookmark/Bookmark.csproj",
         "packagesPath": "/Users/elizabethbissinger/.nuget/packages/",
-        "outputPath": "/Users/elizabethbissinger/Bookmark/Bookmark/Bookmark/obj/",
+        "outputPath": "/Users/elizabethbissinger/Documents/GitHub/Bookmark/Bookmark/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/elizabethbissinger/.nuget/NuGet/NuGet.Config"
