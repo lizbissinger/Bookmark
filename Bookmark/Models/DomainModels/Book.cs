@@ -14,7 +14,7 @@ public class Book
 
     [Range(1, 5, ErrorMessage = "Class rating must be between 1 and 5.")]
     [Required(ErrorMessage = "Please enter a rating 1-5.")]
-    public int? Number { get; set; }
+    public int? Rating { get; set; }
 
     [Display(Name = "Date")]
     [RegularExpression("^[0-100]*$", ErrorMessage = "Please enter numbers only for date.")]
