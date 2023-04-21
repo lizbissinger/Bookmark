@@ -11,12 +11,12 @@ namespace Bookmark.Models
 		{
 			entity.HasData(
 				new Genre { GenreId = 1, Name = "Fiction" },
-                new Genre { GenreId = 1, Name = "Non-Fiction" },
-                new Genre { GenreId = 1, Name = "Mystery" },
-                new Genre { GenreId = 1, Name = "Romance" },
-                new Genre { GenreId = 1, Name = "Thriller" },
-                new Genre { GenreId = 1, Name = "Horror" },
-                new Genre { GenreId = 1, Name = "Biography/Memoir" }
+                new Genre { GenreId = 2, Name = "Non-Fiction" },
+                new Genre { GenreId = 3, Name = "Mystery" },
+                new Genre { GenreId = 4, Name = "Romance" },
+                new Genre { GenreId = 5, Name = "Thriller" },
+                new Genre { GenreId = 6, Name = "Horror" },
+                new Genre { GenreId = 7, Name = "Biography/Memoir" }
                 );
 		}
 	}
