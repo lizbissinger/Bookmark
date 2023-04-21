@@ -1,6 +1,6 @@
-﻿@model IEnumerable<Genre>
+﻿@model IEnumerable<Bookmark.Models.DomainModels.Genre>
 
-@foreach (Genre g in Model)
+@foreach (Bookmark.Models.DomainModels.Genre g in Model)
 {
     <my-link-button action="Index" id="@g.GenreId"
                     class="me-1 mb-2">@g.Name</my-link-button>
