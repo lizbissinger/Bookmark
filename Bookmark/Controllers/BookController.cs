@@ -44,7 +44,7 @@ namespace Bookmark.Controllers
             if (ModelState.IsValid)
             {
                 if (isAdd)
-                    book.Insert(b);
+                    books.Insert(b);
                 else
                     books.Update(b);
                 books.Save();
@@ -87,7 +87,7 @@ namespace Bookmark.Controllers
         {
             ViewBag.Genres = genres.List(new QueryOptions<Genre>
             {
-                OrderBy = b => b.GenreId
+                OrderBy = g => g.GenreId
             });
             ViewBag.Abouts = abouts.List(new QueryOptions<About>
             {
