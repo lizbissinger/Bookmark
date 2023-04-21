@@ -1,20 +1,33 @@
 ﻿<Properties StartupConfiguration="{437B1809-D923-44E0-8057-52F34F107E53}|Default">
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
-  <MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.ItemProperties.Bookmark PreferredExecutionTarget="/System/Volumes/Preboot/Cryptexes/App/System/Applications/Safari.app" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.Workbench ActiveDocument="Bookmark/Views/About/Add.cshtml">
+    <Files>
+      <File FileName="Bookmark/Views/About/Add.cshtml" Line="1" Column="1" />
+      <File FileName="Bookmark/Models/DataLayer/BookmarkContext.cs" Line="1" Column="1" />
+    </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="Bookmark" expanded="True">
-            <Node name="Bookmark" expanded="True" />
+            <Node name="Bookmark" expanded="True">
+              <Node name="Models" expanded="True">
+                <Node name="DataLayer" expanded="True" />
+              </Node>
+              <Node name="Views" expanded="True">
+                <Node name="About" expanded="True">
+                  <Node name="Add.cshtml" selected="True" />
+                </Node>
+              </Node>
+            </Node>
           </Node>
         </State>
       </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.ItemProperties.Bookmark FirstBuild="True" PreferredExecutionTarget="/System/Volumes/Preboot/Cryptexes/App/System/Applications/Safari.app" />
-  <MultiItemStartupConfigurations />
-  <MonoDevelop.Ide.DebuggingService.Breakpoints>
-    <BreakpointStore />
-  </MonoDevelop.Ide.DebuggingService.Breakpoints>
 </Properties>
