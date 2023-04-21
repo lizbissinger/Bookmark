@@ -11,7 +11,7 @@ namespace Bookmark.Models
 		public void Configure(EntityTypeBuilder<Book> entity)
 		{
 			entity.HasOne(b => b.About)
-				.withMany(a => a.Books)
+				.WithMany(a => a.Books)
 				.OnDelete(DeleteBehavior.Restrict);
 
 			entity.HasData(
