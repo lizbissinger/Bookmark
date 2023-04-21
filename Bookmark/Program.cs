@@ -6,7 +6,7 @@ var builder = WebApplication.CreateBuilder(args);
 // Add services to the container.
 builder.Services.AddControllersWithViews();
 
-builder.Services.AddDbContext<BookmarkContext>(options =>
+builder.Services.AddDbContext<Bookmark.Models.DataLayer.BookmarkContext>(options =>
                 options.UseSqlServer(builder.Configuration.GetConnectionString("BookmarkContext")));
 
 builder.Services.AddTransient(typeof(IRepository<>), typeof(Repository<>));
